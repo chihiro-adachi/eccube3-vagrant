@@ -21,5 +21,6 @@ $ vagrant ssh
 $ cd /vagrant
 $ git clone -b eccube-3.0.0-beta https://github.com/EC-CUBE/ec-cube.git
 $ cd ec-cube
+$ sudo ln -s /vagrant/ec-cube /var/www/html/ec-cube
 $ ./eccube_install.sh pgsql
 ```
