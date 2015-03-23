@@ -19,8 +19,7 @@ $ vagrant ssh
 ## ec-cubeインストール
 ```
 $ cd /vagrant
-$ git clone https://github.com/EC-CUBE/ec-cube.git
-$ git checkout eccube-3.0.0-beta
+$ git clone -b eccube-3.0.0-beta https://github.com/EC-CUBE/ec-cube.git
 $ cd ec-cube
-$ eccube_install.sh pgsql
+$ ./eccube_install.sh pgsql
 ```
